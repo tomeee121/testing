@@ -1,0 +1,4 @@
+2022-02-25 14:11:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "USER_DETAILS" nie istnieje
+Table "USER_DETAILS" not found; SQL statement:
+insert into user_details (id, adress, first_name, last_name) values (default, ?, ?, ?) [42102-200]
